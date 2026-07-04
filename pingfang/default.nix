@@ -12,7 +12,7 @@ stdenv.mkDerivation {
   installPhase = ''
     runHook preInstall
 
-    install -Dm644 *.ttf -t $out/share/fonts/opentype
+    install -Dm644 * -t $out/share/fonts
 
     runHook postInstall
   '';
