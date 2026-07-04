@@ -10,6 +10,7 @@ stdenv.mkDerivation {
   };
 
   installPhase = ''
+    mkdir -p $out/share/fonts/opentype
     mv * $out/share/fonts/opentype
   '';
 }
