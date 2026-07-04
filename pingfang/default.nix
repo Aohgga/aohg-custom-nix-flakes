@@ -10,10 +10,6 @@ stdenv.mkDerivation {
   };
 
   installPhase = ''
-    runHook preInstall
-
-    install -Dm644 *.otf -t $out/share/fonts/opentype
-
-    runHook postInstall
+    mv * $out/share/fonts/opentype
   '';
 }
