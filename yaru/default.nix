@@ -23,7 +23,7 @@ stdenv.mkDerivation (finalAttrs: {
     owner = "ubuntu";
     repo = "yaru";
     rev = finalAttrs.version;
-    hash = "sha256-3cSVPObfmr62S6yTD2c8AO3s7lxb9KFVuYSydTIJ1jE=";
+    hash = "sha256-k+ls6IQCAmbPhg3uNGLXfJRz61GGzKbyGvTn0GkElxc=";
   };
 
   nativeBuildInputs = [
@@ -58,6 +58,6 @@ stdenv.mkDerivation (finalAttrs: {
       lgpl3Only
     ];
     platforms = lib.platforms.linux;
-    maintainers = with lib.maintainers; [ moni ];
+    maintainers = with lib.maintainers; [ aohg ];
   };
 })
