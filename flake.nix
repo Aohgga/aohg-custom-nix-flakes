@@ -23,8 +23,6 @@
         maple-mono.NFPropo-CN = pkgs.callPackage ./maple-mono.NFPropo-CN {};
         otf-apple-pingfang = pkgs.callPackage ./pingfang {};
         yaru = pkgs.callPackage ./yaru {};
-        audacious = pkgs.callPackage ./audacious {};
-        audacious-plugins = pkgs.callPackage ./audacious-plugins {};
       }
     );
   };
