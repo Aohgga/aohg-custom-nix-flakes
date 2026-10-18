@@ -12,9 +12,6 @@
   let
     supportedSystems = [
       "x86_64-linux"
-      "aarch64-linux"
-      "x86_64-darwin"
-      "i686-linux"
     ];
     forAllSystems = nixpkgs.lib.genAttrs supportedSystems;
   in {
@@ -26,6 +23,8 @@
         maple-mono.NFPropo-CN = pkgs.callPackage ./maple-mono.NFPropo-CN {};
         otf-apple-pingfang = pkgs.callPackage ./pingfang {};
         yaru = pkgs.callPackage ./yaru {};
+        audacious = pkgs.callPackage ./audacious {};
+        audacious-plugins = pkgs.callPackage ./audacious-plugins {};
       }
     );
   };
