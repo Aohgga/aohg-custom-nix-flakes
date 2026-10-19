@@ -22,7 +22,7 @@ stdenv.mkDerivation (finalAttrs: {
     owner = "ubuntu";
     repo = "yaru";
     rev = finalAttrs.version;
-    hash = "sha256-rDlpMlWd0bUV7k2U1HAJPfrEBwJ9lgnnVimd+eBsP3s=";
+    hash = "sha256-E8CYl0i9/UzlwhnmBl8IDDeAoB9AxOWAbOnPm2HOcz0=";
   };
 
   nativeBuildInputs = [
