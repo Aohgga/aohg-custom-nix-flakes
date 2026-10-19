@@ -16,7 +16,7 @@
 
 stdenv.mkDerivation (finalAttrs: {
   pname = "yaru";
-  version = "26.10.1";
+  version = "26.10.3";
 
   src = fetchFromGitHub {
     owner = "ubuntu";
