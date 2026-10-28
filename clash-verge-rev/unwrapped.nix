@@ -2,7 +2,7 @@
   pname,
   version,
   src,
-  cargoPatches,
+  #cargoPatches,
   meta,
 
   pnpm-hash,
@@ -31,7 +31,7 @@ rustPlatform.buildRustPackage {
     version
     src
     meta
-    cargoPatches
+    #cargoPatches
     ;
   pname = "${pname}-unwrapped";
 
