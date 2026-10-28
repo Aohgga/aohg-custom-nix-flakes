@@ -35,6 +35,8 @@ rustPlatform.buildRustPackage {
     ;
   pname = "${pname}-unwrapped";
 
+  useFetchCargoVendor = true;
+
   cargoHash = vendor-hash;
 
   pnpmDeps = fetchPnpmDeps {
