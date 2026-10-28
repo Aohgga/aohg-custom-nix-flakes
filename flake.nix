@@ -23,7 +23,6 @@
         maple-mono.NFPropo-CN = pkgs.callPackage ./maple-mono.NFPropo-CN {};
         otf-apple-pingfang = pkgs.callPackage ./pingfang {};
         yaru = pkgs.callPackage ./yaru {};
-        clash-verge = pkgs.callPackage ./clash-verge-rev {};
       }
     );
   };
