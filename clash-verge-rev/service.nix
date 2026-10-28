@@ -16,7 +16,7 @@ rustPlatform.buildRustPackage (finalAttrs: {
     hash = "sha256-4YFRonC0nYuh16djiXuZszSoH06x49RVrtLcBnsI7VI=";
   };
 
-  cargoHash = "sha256-2/lFfhP2414iiH+zG2TvNy6uaCzDldoo7sIfhKrQaFg=";
+  cargoHash = "sha256-Lx/Pj4Aev4aR0KQg/cdOXt+gx+s2XAgPG+mr+6w9dnY=";
 
   buildFeatures = [
     "standalone"
